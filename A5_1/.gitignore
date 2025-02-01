@@ -1,3 +1,4 @@
 # Artefacts
 
 *.bkp
+build/*
