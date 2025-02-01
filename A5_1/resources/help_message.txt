@@ -1,0 +1,13 @@
+Usage: a51 [options] [message|path/to/file]
+
+a51 is a command line tool that will encrypt a message, or the contents of a file, that is passed as argument to it.The result will be printed the result on the terminal.
+
+Options:
+  -h, --help      Display this help message.
+  -v, --version   Returns the version of the software.
+  -V, --verbose   Increases the verbosity of the returned output.
+
+Exmaples:
+  a51 -V "Lorem Ipsum"
+  a51 --help
+  a51 path/to/some/file
