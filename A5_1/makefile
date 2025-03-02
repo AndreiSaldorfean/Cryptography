@@ -1,6 +1,6 @@
 all:
 	rm -rf build
-	cmake -S . -B build -G "Unix Makefiles"
+	cmake -S . -B build -G "MinGW Makefiles"
 b:
 	cd build && make -j12
 r:

@@ -1,11 +1,11 @@
-#include <openssl/rand.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef unsigned char bit_t;
 
 int main(){
-  unsigned char buf[4];
-  RAND_bytes(buf,sizeof(buf));
-  printf("%b\n",*(buf));
-  printf("%b\n",*(buf+1));
-  printf("%b\n",*(buf+2));
-  printf("%b\n",*(buf+3));
+
+  // Create session key
+  printf("%d",rand());
   return 0;
 }
